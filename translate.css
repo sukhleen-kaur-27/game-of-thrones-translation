@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'Work Sans', 
+    sans-serif;
+    /* margin: 0px; */
+    background-image: url("https://st1.bgr.in/wp-content/uploads/2014/04/game-of-thrones.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;;
+}
+
+.container{
+    padding-left:1rem;
+    padding-right:1rem;
+ }
+
+.container-center{
+    max-width: 600px;
+    padding:1rem 1rem;
+}
+
+.button-changes{
+    padding: 0.5rem 2rem;
+    font-weight: bold;
+    color: white;
+    background-color:transparent;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+   
+}
+.textarea-changes{
+    padding: 2rem 7rem;
+    display: block;
+    border-radius: 0.5rem;
+    border-color: black;
+    font-size:large;
+    background-color:transparent;
+    text-align: justify;
+    color: white;
+}
+
+.text-changes{
+    text-align: left;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.header{
+    background:transparent;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-radius: 0.5rem;
+}
+
+ .text-align{
+    text-align: right;
+    font-weight: bold;
+    font-size: xx-large;
+
+ }
+
+ .footer{
+    text-align:right;
+    background-color:transparent;
+    padding: 2rem 1rem;
+    border-radius:0.5rem;
+   
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.link{
+    
+    padding: 0.5rem 1rem;
+    font-size: xx-large;
+    color:white;
+}
+.list-non-bullet{
+    list-style: none;
+}
+
+.image-align{
+ max-width: 350px;
+  right: 350px;
+}
+
+.site-logo {
+    margin-left: 20px;
+  }
+.footer ul{
+    padding-inline-start:0px;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
